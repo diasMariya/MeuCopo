@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#1E90FF">
+
+    <TextView
+        android:id="@+id/txtConsumo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hoje: 0ml"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtMeta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Meta: 2000ml"
+        android:textSize="18sp" />
+
+    <ProgressBar
+        android:id="@+id/barraProgresso"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_marginBottom="24dp"
+        android:max="100"
+        android:progress="0" />
+
+    <Button
+        android:id="@+id/btnBeber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Beber um copo" />
+
+    <Button
+        android:id="@+id/btnConfiguracoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Configurações" />
+
+    <Button
+        android:id="@+id/btnHistorico"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Histórico" />
+</LinearLayout>
